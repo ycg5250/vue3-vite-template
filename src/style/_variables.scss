@@ -1,0 +1,224 @@
+:root {
+  --color-1: #3a3b3d;
+  --color-2: #7a7a7a;
+  --color-3: #bbbbbb;
+  --color-4: #ffffff;
+  --color-5: rgba(255, 255, 255, 0.6);
+  --color-6: #6F7174;
+  --color-7: #9ea0a5;
+  --color-8: #1a202c;
+  --color-9: #666666;
+  --color-10: #232323;
+  --color-11: #d5d8db;
+  --color-12: #ffffff;
+  --color-13: #101010;
+  --color-14: #999999;
+  --color-15: #2980fe;
+  --color-16: #2980fe;
+  --color-17: #C0C3C6;
+  --color-18: #898A8F;
+  --color-19: #000000;
+  --color-20: #828282;
+  --color-21: #b3b3b3;
+
+  --bg-1: #ffffff;
+  --bg-2: #3d8cfe;
+  --bg-3: #ffffff;
+  --bg-4: #00040B;
+  --bg-5: #f8fafc;
+  --bg-6: #121212;
+  --bg-7: #ebfaf1;
+  --bg-8: #ffecec;
+  --bg-9: #ffffff;
+  --bg-10: #f0f0f0;
+  --bg-11: #f7f7f7;
+  --bg-12: #ffffff;
+  --bg-13: #f7f7f7;
+  --bg-14: #f9f9f9;
+  --bg-15: #f9fbff;
+  --bg-16: #06459f;
+  --bg-17: #ffffff;
+  --bg-18: #ffffff;
+  --bg-19: #ffffff;
+  --bg-20: #eeeeee;
+  --bg-21: #eef4ff;
+  --bg-22: #f5f6f7;
+  --bg-23: #ebf4ff;
+  --bg-24: #ffffff;
+  --bg-25: #f5f8fa;
+  --bg-26: #f5f6f7;
+  --bg-27: #f2f3f7;
+  --bg-28: #F2F4F7;
+  --bg-29: #F2F4F7;
+  --bg-30: #F2F4F7;
+  --bg-31: #000000;
+  --bg-32: #f5f6f7;
+  --bg-33: #ffffff;
+
+  --box-shadow-1: rgba(0, 0, 0, 0.06);
+  --box-shadow-2: rgba(0, 0, 0, 0.12);
+
+  --border-1: #cbd5e1;
+  --border-2: #e6e8ea;
+  --border-3: #e6e8ea;
+  --border-4: #eeeeee;
+  --border-5: #dcdfe6;
+  --border-6: #d7d7d7;
+  --border-7: #ffffff;
+  --border-8: #eeeeee;
+  --border-9: #a8cbff;
+  --border-10: #f1f3f5;
+  --border-11: #e6e8ea;
+  --border-12: #ECEEF0;
+  --border-13: #CFE1FC;
+  --border-14: #e6e8ea;
+
+  --home-bg-img: url('../assets/home/bg.png');
+
+  --tag-color-1: rgba(240, 245, 255, 0.77);
+  --tag-color-2: rgba(240, 245, 255, 0.55);
+  --tag-color-3: #F0F5FF;
+  --tag-bg: #02132C;
+
+  --card-bg: #f9fbfc;
+  --card-border: #f1f3f5;
+
+  --dividing-line-bg-1: #eeeeee; 
+  --dividing-line-bg-2: #d8d8d8;
+  --dividing-line-bg-3: #e6e8ea;
+
+  --header-nav-title-color: #101010;
+  --footer-bg: #1c1c1f;
+  --footer-nav-title-color: #6f7174;
+  --footer-nav-option-color: rgba(255, 255, 255, 0.88);
+  --copyright-color: #6F7174;
+
+  --button-border: #6f7174;
+  --message-box-border: #d7d7d7;
+
+  --navbar-wrap-child-container-bg: rgba(212, 220, 229, 0.6);
+  --navbar-wrap-child-language-bg: #ffffff;
+  --navbar-wrap-child-language-border: #f1f3f5;
+
+  --platform-bg: #eeeeee;
+  --platform-item-bg: #ffffff;
+  --platform-item-color: #101010;
+
+
+  --switch-bg: #dfdfdf;
+  --switch-border: #dfdfdf;
+  --switch-before-bg: #f6f6f6;
+  --switch-on: #06b37f;
+}
+
+:root[theme='dark'] {
+  --color-1: #F0F5FF;
+  --color-2: rgba(240, 245, 255, 0.7);
+  --color-3: rgba(240, 245, 255, 0.44);
+  --color-4: #F0F5FF;
+  --color-5: rgba(240, 245, 255, 0.7);
+  --color-6: rgba(240, 245, 255, 0.7);
+  --color-7: rgba(240, 245, 255, 0.7);
+  --color-8: #F0F5FF;
+  --color-9: rgba(240, 245, 255, 0.8);
+  --color-10: rgba(240, 245, 255, 0.7);
+  --color-11: rgba(0, 9, 22, 0.7);
+  --color-12: rgba(0, 9, 22, 1);
+  --color-13: #F0F5FF;
+  --color-14: rgba(240, 245, 255, 0.7);
+  --color-15: #3286FD;
+  --color-16: #F0F5FF;
+  --color-17: rgba(240, 245, 255, 0.44);
+  --color-18: rgba(240, 245, 255, 0.7);
+  --color-19: #F0F5FF;
+  --color-20: rgba(240, 245, 255, 0.7);
+  --color-21: rgba(240, 245, 255, 0.7);
+
+  --bg-1: #000916;
+  --bg-2: #003889;
+  --bg-3: #000000;
+  --bg-4: #00040B;
+  --bg-5: #000000;
+  --bg-6: #F0F5FF;
+  --bg-7: rgba(22, 165, 122, 0.22);
+  --bg-8: rgba(245, 100, 89, 0.22);
+  --bg-9: #011B41;
+  --bg-10: #0e1b2f;
+  --bg-11: #152946;
+  --bg-12: #152946;
+  --bg-13: #02132C;
+  --bg-14: #11233D;
+  --bg-15: #00040B;
+  --bg-16: #001635;
+  --bg-17: #000A16;
+  --bg-18: #1C355A;
+  --bg-19: #02132C;
+  --bg-20: #02132C;
+  --bg-21: #2980FE;
+  --bg-22: #152946;
+  --bg-23: #152946;
+  --bg-24: #152946;
+  --bg-25: #152946;
+  --bg-26: #02132C;
+  --bg-27: #000916;
+  --bg-28: #011B41;
+  --bg-29: #152946;
+  --bg-30: #02132C;
+  --bg-31: #31353D;
+  --bg-32: #232429;
+  --bg-33: #18191E;
+
+  --box-shadow-1: rgba(0, 0, 0, 0.25);
+  --box-shadow-2: rgba(0, 0, 0, 0.25);
+
+  --border-1: rgba(240, 245, 255, 0.22);
+  --border-2: #002F75;
+  --border-3: #22416C;
+  --border-4: #2C4466;
+  --border-5: #2C4466;
+  --border-6: #2C4466;
+  --border-7: #2C4466;
+  --border-8: #6A7996;
+  --border-9: #4F82CF;
+  --border-10: #2C4466;
+  --border-11: #BDBDBD;
+  --border-12: rgba(240, 245, 255, 0.22);
+  --border-13: rgba(240, 245, 255, 0.7);
+  --border-14: #3E4347;
+
+  --home-bg-img: url('../assets/home/bg-dark.png');
+
+  --tag-color-1: rgba(240, 245, 255, 0.77);
+  --tag-color-2: rgba(240, 245, 255, 0.55);
+  --tag-color-3: #F0F5FF;
+  --tag-bg: #02132C;
+
+  --card-bg: #152946;
+  --card-border: #2C4466;
+
+  --dividing-line-bg-1: rgba(240, 245, 255, 0.22); // 分割线
+  --dividing-line-bg-2: rgba(240, 245, 255, 0.22); // 分割线
+  --dividing-line-bg-3: rgba(240, 245, 255, 0.22); // 分割线
+
+  --header-nav-title-color: #F0F5FF;
+  --footer-bg: #000916;
+  --footer-nav-title-color: rgba(240, 245, 255, 0.3);
+  --footer-nav-option-color: rgba(240, 245, 255, 0.88);
+  --copyright-color: rgba(240, 245, 255, 0.44);
+
+  --button-border: #F0F5FF;
+  --message-box-border: rgba(240, 245, 255, 0.44);
+
+  --navbar-wrap-child-container-bg: rgba(0, 0, 0, 0.7);
+  --navbar-wrap-child-language-bg: #152946;
+  --navbar-wrap-child-language-border: #2c4466;
+
+  --platform-bg: #011B41;
+  --platform-item-bg: #F0F5FF;
+  --platform-item-color: #F0F5FF;
+
+  --switch-bg: #18191c;
+  --switch-border: #2d2f33;
+  --switch-before-bg: #18191c;
+  --switch-on: #03c288;
+}
