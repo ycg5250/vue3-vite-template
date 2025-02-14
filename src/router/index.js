@@ -13,12 +13,6 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "vips" */ "../views/VipsView.vue"),
   },
-  {
-    path: "/refpoint",
-    name: "refpoint",
-    component: () =>
-      import(/* webpackChunkName: "refpoint" */ "../views/RefPointView.vue"),
-  },
   // {
   //   path: "/about",
   //   name: "about",
