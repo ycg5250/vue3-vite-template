@@ -25,11 +25,6 @@
         </div>
       </div>
     </div>
-    <!-- <div class="premium">
-      <div class="title">{{ $t('VIP.text_5') }}</div>
-      <div class="text">{{ $t('VIP.text_6') }}</div>
-      <div class="text">{{ $t('VIP.text_7') }}</div>
-    </div> -->
   </div>
 </template>
 
@@ -39,9 +34,6 @@ import { onBeforeRouteLeave } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 const { locale, t } = useI18n();
 import { TP_SERVER_DOMAIN } from '../utils/config';
-
-// import useDarkImg from '../hooks/useDarkImg';
-// const { darkModeImg } = useDarkImg();
 
 const tableData = ref([
   {

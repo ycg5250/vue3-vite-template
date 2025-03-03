@@ -28,9 +28,6 @@
           <img class="header-m" src="../assets/home/header-m.png" alt="" />
         </div>
       </div>
-      <Section :section="section_1" class="section-1" />
-      <Section :section="section_2" class="section-2" />
-      <Section :section="section_3" class="section-3" />
       <div class="map-view">
         <div class="map-title">{{ $t('HOME.regionsCovered') }}</div>
         <Map />
@@ -117,7 +114,6 @@ import useThrottle from '../hooks/useThrottle';
 import Header from '../components/layout/Header.vue';
 import Footer from '../components/layout/Footer.vue';
 import Map from '../components/common/Map.vue';
-import Section from '../components/common/Section.vue';
 import FAQItem from '../components/common/FAQItem.vue';
 
 import TPCard from '../assets/video/TP-card.mp4';
