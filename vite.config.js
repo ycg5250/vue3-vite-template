@@ -50,6 +50,9 @@ export default defineConfig(({ command, mode, isSsrBuild, isPreview }) => {
             if (assetInfo.name.endsWith('.css')) {
               return 'css/[name]-[hash].css';
             }
+            if (assetInfo.name.endsWith('.worker.js')) {
+              return assetInfo.name;
+            }
             const imgExts = [
               '.png',
               '.jpg',
