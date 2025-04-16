@@ -34,6 +34,7 @@ import { onBeforeRouteLeave } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 const { locale, t } = useI18n();
 import { TP_SERVER_DOMAIN } from '../utils/config';
+import WebSocketManager from '../utils/webSocketManager.js';
 
 const tableData = ref([
   {

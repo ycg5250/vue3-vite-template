@@ -116,7 +116,6 @@ import Footer from '../components/layout/Footer.vue';
 import Map from '../components/common/Map.vue';
 import FAQItem from '../components/common/FAQItem.vue';
 
-import TPCard from '../assets/video/TP-card.mp4';
 import { SUPPORT_COUNTRY_MAP } from '../utils/country';
 import { TP_SERVER_DOMAIN } from '../utils/config';
 
@@ -131,7 +130,8 @@ const isDarkMode = computed(() => {
 });
 
 const TPCardVideo = computed(() => {
-  return new URL(`../assets/video/TP-card${darkModeImg.value}.mp4`, import.meta.url).href;
+  // return new URL(`../assets/video/TP-card${darkModeImg.value}.mp4`, import.meta.url).href;
+  return `https://hk.tpstatic.net/card/video/TP-card${darkModeImg.value}.mp4`
 });
 
 const learnMoreUrl = computed(() => {

@@ -30,7 +30,7 @@ export default defineConfig(({ command, mode, isSsrBuild, isPreview }) => {
       //   enableInDevMode: false, // 是否在开发模式中启用
       // })
     ],
-    base: env.VITE_APP_ENV === 'production' ? '/' : '/tp-card',
+    base: env.VITE_APP_ENV === 'production' ? '/' : '/ws-worker',
     server: {
       open: true,
       host: '0.0.0.0',
